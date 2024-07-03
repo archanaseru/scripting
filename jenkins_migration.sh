@@ -60,3 +60,19 @@ remote_execute $TARGET_USER $TARGET_IP "
 
 	echo "Jenkins migration completed."
 "
+
+
+
+
+check_service_status() {
+    systemctl is-active --quiet "$1"
+}
+
+
+
+        if check_service_status "$service"; then
+            echo "$service started successfully."
+        else
+            echo "Failed to start $service. Exiting."
+            exit 1
+        fi
