@@ -1,4 +1,7 @@
-$ wget http://ftp.us.debian.org/debian/pool/main/i/icu/libicu57_57.1-6+deb9u4_amd64.deb
-$ sudo dpkg -i libicu57_57.1-6+deb9u4_amd64.deb
-$ sudo apt install dotnet-sdk-3.1
+wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+sudo apt-get update
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install dotnet-sdk-3.1
 
