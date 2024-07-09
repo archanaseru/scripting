@@ -14,8 +14,8 @@ sudo apt install dotnet-runtime-3.1
 
 wget http://ftp.us.debian.org/debian/pool/main/i/icu/icu-devtools_67.1-7_amd64.deb
 
-wget http://ftp.us.debian.org/debian/pool/main/i/icu/icu-devtools_63.1-6+deb10u3_amd64.deb
+wget http://ftp.us.debian.org/debian/pool/main/i/icu/libicu-dev_63.1-6+deb10u3_amd64.deb	
 
-sudo dpkg -i icu-devtools_63.1-6+deb10u3_amd64.deb
+sudo dpkg -i 	libicu-dev_63.1-6+deb10u3_amd64.deb	
 
 sudo apt install dotnet-sdk-3.1
