@@ -9,3 +9,10 @@ sudo apt install dotnet-sdk-3.1
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/ubuntu/$(lsb_release -rs)/prod $(lsb_release -cs) main" > /etc/apt/sources.list.d/dotnetdev.list'
 sudo apt install dotnet-runtime-3.1
 
+
+
+
+wget http://ftp.us.debian.org/debian/pool/main/i/icu/icu-devtools_67.1-7_amd64.deb
+sudo dpkg -i libicu57_57.1-6+deb9u4_amd64.deb
+
+sudo apt install dotnet-sdk-3.1
